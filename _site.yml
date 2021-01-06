@@ -1,43 +1,14 @@
-title: Raquel's Blog
-description: A place where I share my passions and growth
-keywords: blog, R, Rstudio, Data Science, growth, Personal Development
-author: Raquel Baltazar
-
-#title hide and show
-hide: (つェ⊂)我藏好啦
-show: ´∇｀ 呀被发现啦~ 
-
-baseurl:
-url: "RAQUEL-B.github.io"
-buildtime: "1609934268"
-PJAX: true 
-
-paginate: 8 
-paginate_path: "page:num"
-
-background: https://api.dujin.org/bing/1920.php
-theme_color: 546E7A
-
-# hydrogen-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-hydrogen-blog:
-  date_format: "%b %-d, %Y"
-
-#MathJax switch
-MathJax: false
-
-#install emoji
-plugins:
-  - jemoji
-
-# social account
-image:
-twitter:
-  username:
-#  site:
-facebook:
-  #publisher: null
-  #profile_id: null
-  app_id: null
-  #authors: null
-#  admins:
+name: "Raquel-Website"
+navbar:
+  title: "My Personal Blog"
+  left:
+    - text: "Home"
+      href: index.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<cats@catemail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/<YOUR_GH_NAME>/
+output:
+  html_document:
+    theme: darkly
