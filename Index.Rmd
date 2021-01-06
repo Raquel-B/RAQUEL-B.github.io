@@ -1,0 +1,10 @@
+---
+title: "My Personal Blog"
+---
+
+This is me (Chilling in Barcelona)
+
+
+<img src="images/meinbcn.png" style="width:50%">
+
+
